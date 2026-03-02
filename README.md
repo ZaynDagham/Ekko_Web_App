@@ -15,9 +15,10 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Step 1: Download the Repository & Artifacts
 
-1. **Clone the repository** from GitHub and place it in a short, non-spaced directory path on your machine to avoid path-resolution issues.
+1. **Clone or Donwload the repository** from GitHub and place it in a short, non-spaced directory path on your machine to avoid path-resolution issues.
 2. **Download the required AI artifacts** (like models and embeddings) from this [Google Drive Link](https://drive.google.com/drive/folders/1b3Td6bobTzKWGB7Y2kJ8iyKo1M4qgHK6?usp=sharing).
-3. Extract and place the downloaded (Size 1.64GB) `ekko_artifacts` into your local project so it matches the **Project Structure** outlined at the bottom of this guide.
+3. **Download the 2 CSV Files** (MetaData:`400k_Basic_genome_movielens_keywords.csv` And Rating files:`merged_users_ratings.csv`) only if u want to work on the colab notebooks (starting form #01 notebook) from this [Google Drive Link](https://drive.google.com/drive/folders/1zlsN5W2oABCf2odlC37iWASwhG8Dh83Y?usp=sharing). (Change paths according to your needs)
+4. Extract and place the downloaded (Size 1.64GB) `ekko_artifacts` into your local project so it matches the **Project Structure** outlined at the bottom of this guide.
 
 ---
 
@@ -182,6 +183,11 @@ Verify your files match this layout before running the application:
 │   │   │   ├── lightgbm_model.joblib
 │   │   │   ├── svd_item_factors.npy
 │   │   │   └── tconst_map.joblib
+│   │   ├── notebooks
+│   │   │   ├── 01_data_preparation.ipynb
+│   │   │   ├── 02_generating_embeddings.ipynb
+│   │   │   ├── 03_vip_generation.ipynb
+│   │   │   └── 04_train_classifier.ipynb
 │   │   ├── ai_embeddings.npy
 │   │   ├── metadata_enriched.parquet
 │   │   ├── parquet_viewer.py
@@ -251,5 +257,6 @@ Verify your files match this layout before running the application:
 
 
 ```
+
 
 ---
