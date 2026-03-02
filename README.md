@@ -1,6 +1,6 @@
 ---
 
-# Ekko: AI-Powered Movie Recommender
+# Ekko: AI-Powered Movie/Tv-Show Recommender
 
 Welcome to **Ekko**! This guide will walk you through setting up the AI engine backend and the Next.js frontend to get your personalized movie recommendation system up and running.
 
@@ -260,3 +260,4 @@ Verify your files match this layout before running the application:
 
 
 ---
+
